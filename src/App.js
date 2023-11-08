@@ -11,7 +11,7 @@ import Skills from "./Component/Skills";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <header id="menu-bar">
         <div id="website-title" r>
           Hee Eun's Portfolio
